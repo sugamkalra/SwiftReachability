@@ -15,6 +15,7 @@
 		15FF77C61C16FCE3000624EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FF77C41C16FCE3000624EC /* LaunchScreen.storyboard */; };
 		15FF77D11C16FCE3000624EC /* SwiftyReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF77D01C16FCE3000624EC /* SwiftyReachabilityTests.swift */; };
 		15FF77DC1C16FCE3000624EC /* SwiftyReachabilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF77DB1C16FCE3000624EC /* SwiftyReachabilityUITests.swift */; };
+		15FF77EB1C16FCFA000624EC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF77EA1C16FCFA000624EC /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		15FF77D71C16FCE3000624EC /* SwiftyReachabilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyReachabilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FF77DB1C16FCE3000624EC /* SwiftyReachabilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyReachabilityUITests.swift; sourceTree = "<group>"; };
 		15FF77DD1C16FCE3000624EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FF77EA1C16FCFA000624EC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		15FF77B71C16FCE3000624EC /* SwiftyReachability */ = {
 			isa = PBXGroup;
 			children = (
+				15FF77E91C16FCED000624EC /* ReachabilityClasses */,
 				15FF77B81C16FCE3000624EC /* AppDelegate.swift */,
 				15FF77BA1C16FCE3000624EC /* ViewController.swift */,
 				15FF77BC1C16FCE3000624EC /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				15FF77DD1C16FCE3000624EC /* Info.plist */,
 			);
 			path = SwiftyReachabilityUITests;
+			sourceTree = "<group>";
+		};
+		15FF77E91C16FCED000624EC /* ReachabilityClasses */ = {
+			isa = PBXGroup;
+			children = (
+				15FF77EA1C16FCFA000624EC /* Reachability.swift */,
+			);
+			name = ReachabilityClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				15FF77C11C16FCE3000624EC /* SwiftyReachability.xcdatamodeld in Sources */,
 				15FF77BB1C16FCE3000624EC /* ViewController.swift in Sources */,
+				15FF77EB1C16FCFA000624EC /* Reachability.swift in Sources */,
 				15FF77B91C16FCE3000624EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
